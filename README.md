@@ -1,50 +1,74 @@
-# React + TypeScript + Vite
+# Guia de Instalação e Configuração
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Instalação de Pacotes
 
-Currently, two official plugins are available:
+1. Crie um novo projeto com Vite:
+    ```bash
+    npm create vite@latest
+    ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Selecione o framework:
+    - **Framework**: React
+    - **Variant**: TypeScript
 
-## Expanding the ESLint configuration
+3. Instale as dependências do projeto:
+    ```bash
+    npm install
+    ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 2. Instalação do React Router
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Instale o React Router DOM:
+```bash
+npm install react-router-dom
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 3. Instalação do TailwindCSS
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 3.1 Instale o TailwindCSS e suas dependências:
+```bash
+npm install -D tailwindcss postcss autoprefixer
 ```
+
+### 3.2 Gere o arquivo de configuração do TailwindCSS::
+```bash
+npx tailwindcss init -p
+```
+
+### 3.3  Configure o arquivo tailwind.config.js:
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+### 3.4 Adicione as diretivas do TailwindCSS ao seu arquivo index.css:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+## 4. Instalação do Axios
+### Instale o Axios para requisições HTTP:
+npm install axios
+
+## 5. Rodar o Projeto
+```bash
+npm install
+npm run dev
+```
+
+## 6. Extensões Recomendadas
+* vscode-icons
+* Prettier
+* Tailwind CSS
