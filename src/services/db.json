@@ -1,0 +1,2114 @@
+{
+    "BuscarMenu": {
+        "resultado": [
+          {
+            "Id": 4038,
+            "Nome": "Planilha PCN",
+            "Descricao": "Plano de Contingência de Negócios (PCN FUNCEF)",
+            "Link": "gcn.consultar",
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "gcn.consultar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": true
+          },
+          {
+            "Id": 5807,
+            "Nome": "Gestor de Formulários",
+            "Descricao": "Função para gestores que podem incluir formulário de terceiros (atestado, reembolso, afastamento)",
+            "Link": "gestor-formulario",
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "gestor-formulario.incluir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "gestor-formulario.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": true
+          },
+          {
+            "Id": 3753,
+            "Nome": "Avaliações",
+            "Descricao": "Módulo de Avaliações",
+            "Link": "avaliacoes",
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "avaliacoes.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "avaliacoes.consultar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "avaliacoes.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": true
+          },
+          {
+            "Id": 5818,
+            "Nome": "Cargo",
+            "Descricao": "Cargos FUNCEF",
+            "Link": null,
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": ".consultar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": ".visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": true
+          },
+          {
+            "Id": 5873,
+            "Nome": "Fluxo de Trabalho",
+            "Descricao": "Função de consulta historico do fluxo de trabalho",
+            "Link": "fluxo-trabalho.consultar",
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "fluxo-trabalho.consultar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": true
+          },
+          {
+            "Id": 6079,
+            "Nome": "Rescisão de contrato",
+            "Descricao": "Módulo de controle de rescisões de contrato",
+            "Link": "rescisao",
+            "Itens": [
+              {
+                "Id": 6083,
+                "Nome": "Empregado",
+                "Descricao": "Módulo do empregado de controle de rescisões de contrato",
+                "Link": "rescisao.empregado",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "rescisao.empregado.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "rescisao.empregado.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "rescisao.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "rescisao.incluir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "rescisao.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": true
+          },
+          {
+            "Id": 6066,
+            "Nome": "Calendário",
+            "Descricao": "Administração de calendário funcef",
+            "Link": "calendario",
+            "Itens": [
+              {
+                "Id": 6067,
+                "Nome": "Administração Calendário",
+                "Descricao": "Administração Calendário",
+                "Link": "calendario.admin",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "calendario.admin.incluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "calendario.admin.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "calendario.admin.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "calendario.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "calendario.consultar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5869,
+            "Nome": "Controle de certificações",
+            "Descricao": "Controle de certificações",
+            "Link": "controle-certificacao",
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "controle-certificacao.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "controle-certificacao.consultar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "controle-certificacao.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 6023,
+            "Nome": "Demonstrativo Pagamento",
+            "Descricao": "Demonstrativo Pagamento",
+            "Link": "demonstrativo-pagamento",
+            "Itens": [
+              {
+                "Id": 6028,
+                "Nome": "Administração - Demonstrativo de pagamento",
+                "Descricao": "Seção de administrador do demonstrativo de pagamento",
+                "Link": "demonstrativo-pagamento.admin",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-pagamento.admin.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-pagamento.admin.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": true
+              },
+              {
+                "Id": 6026,
+                "Nome": "Folha 13º",
+                "Descricao": "Folha Décimo Terceiro",
+                "Link": "demonstrativo-pagamento.folha-decimo-terceiro",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-pagamento.folha-decimo-terceiro.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-pagamento.folha-decimo-terceiro.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 6027,
+                "Nome": "Folha Férias",
+                "Descricao": "Folha Férias",
+                "Link": "demonstrativo-pagamento.folha-ferias",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-pagamento.folha-ferias.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-pagamento.folha-ferias.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 6024,
+                "Nome": "Folha Normal",
+                "Descricao": "Contra cheque (Folha Normal)",
+                "Link": "demonstrativo-pagamento.folha-normal",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-pagamento.folha-normal.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-pagamento.folha-normal.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "demonstrativo-pagamento.acessar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 3754,
+            "Nome": "Destacamento",
+            "Descricao": "Módulo de Administração Avaliações Destacamento",
+            "Link": "destacamento",
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "destacamento.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "destacamento.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Alterar",
+                "Descricao": null,
+                "Link": "destacamento.alterar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "destacamento.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Excluir",
+                "Descricao": null,
+                "Link": "destacamento.excluir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "destacamento.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 6016,
+            "Nome": "Ficha Funcional",
+            "Descricao": "Ficha Funcional de Colaboradores",
+            "Link": "ficha-funcional",
+            "Itens": [
+              {
+                "Id": 6017,
+                "Nome": "Administração - Ficha Funcional",
+                "Descricao": "Administração - Ficha Funcional",
+                "Link": "ficha-funcional.gestor.visualizar",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "ficha-funcional.gestor.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "ficha-funcional.consultar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 6018,
+            "Nome": "Aviso de Férias",
+            "Descricao": "Módulo de Aviso de Férias",
+            "Link": "aviso-ferias",
+            "Itens": [
+              {
+                "Id": 6019,
+                "Nome": "Histórico de férias",
+                "Descricao": "Tela de consulta do histórico de férias",
+                "Link": "periodo-aquisitivo",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "periodo-aquisitivo.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "periodo-aquisitivo.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 6022,
+                "Nome": "Férias Compulsórias",
+                "Descricao": "Férias Compulsórias",
+                "Link": "aviso-ferias.compulsorias",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "aviso-ferias.compulsorias.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "aviso-ferias.compulsorias.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 6020,
+                "Nome": "Administração",
+                "Descricao": "Administração - Aviso de férias",
+                "Link": "aviso-ferias.admin",
+                "Itens": [
+                  {
+                    "Id": 6029,
+                    "Nome": "Administrador Copec",
+                    "Descricao": "Administrador Copec do Aviso de férias",
+                    "Link": "aviso-ferias.admin.copec.incluir",
+                    "Itens": [
+                      {
+                        "Id": null,
+                        "Nome": "Incluir",
+                        "Descricao": null,
+                        "Link": "aviso-ferias.admin.copec.incluir",
+                        "Itens": [],
+                        "Ocultar": true
+                      }
+                    ],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": 6021,
+                    "Nome": "Analisar Aviso de Férias",
+                    "Descricao": "Tela para analisar aviso de férias",
+                    "Link": "aviso-ferias.analisar",
+                    "Itens": [
+                      {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "aviso-ferias.analisar.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "aviso-ferias.analisar.consultar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "aviso-ferias.analisar.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Excluir",
+                        "Descricao": null,
+                        "Link": "aviso-ferias.analisar.excluir",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "aviso-ferias.analisar.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                      }
+                    ],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "aviso-ferias.admin.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "aviso-ferias.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "aviso-ferias.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "aviso-ferias.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Excluir",
+                "Descricao": null,
+                "Link": "aviso-ferias.excluir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Imprimir",
+                "Descricao": null,
+                "Link": "aviso-ferias.imprimir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "aviso-ferias.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 6030,
+            "Nome": "Demonstrativo de Excesso de Débito",
+            "Descricao": "Módulo Demonstrativo de Excesso de Débito",
+            "Link": "demonstrativo-excesso-debito",
+            "Itens": [
+              {
+                "Id": 6031,
+                "Nome": "Administração - Demonstrativo de excesso de débito",
+                "Descricao": "Seção de administrador do demonstrativo de excesso de débito",
+                "Link": "demonstrativo-excesso-debito.admin.consultar",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "demonstrativo-excesso-debito.admin.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "demonstrativo-excesso-debito.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "demonstrativo-excesso-debito.consultar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 4035,
+            "Nome": "Agenda FUNCEF",
+            "Descricao": "Retorna os dados cadastrais dos empregados FUNCEF",
+            "Link": "colaboradores",
+            "Itens": [
+              {
+                "Id": 4036,
+                "Nome": "Detalhes da Agenda",
+                "Descricao": "Verifica detalhes da agenda de colaboradores",
+                "Link": "colaboradores",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "colaboradores.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "colaboradores.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "colaboradores.consultar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5407,
+            "Nome": "Informe de Rendimentos",
+            "Descricao": "Consulta do comprovante de rendimentos para fins de IR",
+            "Link": "comprovante-rendimentos",
+            "Itens": [
+              {
+                "Id": 5408,
+                "Nome": "Administração",
+                "Descricao": "Consulta do comprovante de rendimentos para fins de IR dos empregados",
+                "Link": "comprovante-rendimentos.admin",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "comprovante-rendimentos.admin.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "comprovante-rendimentos.admin.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "comprovante-rendimentos.admin.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 5409,
+                "Nome": "Visualizar",
+                "Descricao": "Visualizar o comprovante de rendimentos para fins de IR",
+                "Link": "comprovante-rendimentos.visualizar",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "comprovante-rendimentos.visualizar.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "comprovante-rendimentos.visualizar.incluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "comprovante-rendimentos.visualizar.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "comprovante-rendimentos.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "comprovante-rendimentos.consultar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "comprovante-rendimentos.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5874,
+            "Nome": "Responsabilidade de Equipamentos",
+            "Descricao": "Responsabilidade de Equipamentos",
+            "Link": "emprestimo-equipamento",
+            "Itens": [
+              {
+                "Id": 5875,
+                "Nome": "Administração",
+                "Descricao": "Administração",
+                "Link": "emprestimo-equipamento.admin",
+                "Itens": [
+                  {
+                    "Id": 5876,
+                    "Nome": "Analisar Empréstimo de Equipamentos",
+                    "Descricao": "Analisar Empréstimo de Equipamentos",
+                    "Link": "emprestimo-equipamento.analisar",
+                    "Itens": [
+                      {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "emprestimo-equipamento.analisar.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "emprestimo-equipamento.analisar.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "emprestimo-equipamento.analisar.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                      }
+                    ],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "emprestimo-equipamento.admin.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "emprestimo-equipamento.admin.consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "emprestimo-equipamento.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "emprestimo-equipamento.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Alterar",
+                "Descricao": null,
+                "Link": "emprestimo-equipamento.alterar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "emprestimo-equipamento.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Excluir",
+                "Descricao": null,
+                "Link": "emprestimo-equipamento.excluir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "emprestimo-equipamento.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5819,
+            "Nome": "Comitê de Elegibilidade",
+            "Descricao": "Comitê de Elegibilidade",
+            "Link": "comite-elegibilidade",
+            "Itens": [
+              {
+                "Id": 5870,
+                "Nome": "Administração",
+                "Descricao": "Homologações/Cancelamentos de cadastros",
+                "Link": "comite-elegibilidade.admin.alterar",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "comite-elegibilidade.admin.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "comite-elegibilidade.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "comite-elegibilidade.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Alterar",
+                "Descricao": null,
+                "Link": "comite-elegibilidade.alterar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "comite-elegibilidade.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Excluir",
+                "Descricao": null,
+                "Link": "comite-elegibilidade.excluir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "comite-elegibilidade.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5351,
+            "Nome": "Meus Certificados",
+            "Descricao": "Colaboradores que podem incluir certificado",
+            "Link": "controle-certificado",
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "controle-certificado.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Alterar",
+                "Descricao": null,
+                "Link": "controle-certificado.alterar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "controle-certificado.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Excluir",
+                "Descricao": null,
+                "Link": "controle-certificado.excluir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "controle-certificado.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5453,
+            "Nome": "Declaração IR",
+            "Descricao": "Cadastro de declaração do IR para gestores",
+            "Link": "declaracao-ir",
+            "Itens": [
+              {
+                "Id": 5454,
+                "Nome": "Administração",
+                "Descricao": "Administração das Declarações de IR",
+                "Link": "declaracao-ir.admin",
+                "Itens": [
+                  {
+                    "Id": 5455,
+                    "Nome": "Analisar Declaração IR",
+                    "Descricao": "Analisar Declaração IR",
+                    "Link": "declaracao-ir.analisar",
+                    "Itens": [
+                      {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "declaracao-ir.analisar.consultar",
+                        "Itens": [],
+                        "Ocultar": false
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "declaracao-ir.analisar.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Incluir",
+                        "Descricao": null,
+                        "Link": "declaracao-ir.analisar.incluir",
+                        "Itens": [],
+                        "Ocultar": false
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Excluir",
+                        "Descricao": null,
+                        "Link": "declaracao-ir.analisar.excluir",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "declaracao-ir.analisar.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                      }
+                    ],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "declaracao-ir.admin.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "declaracao-ir.admin.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "declaracao-ir.admin.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "declaracao-ir.admin.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "declaracao-ir.admin.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "declaracao-ir.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Alterar",
+                "Descricao": null,
+                "Link": "declaracao-ir.alterar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "declaracao-ir.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Excluir",
+                "Descricao": null,
+                "Link": "declaracao-ir.excluir",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "declaracao-ir.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5302,
+            "Nome": "Meus Termos",
+            "Descricao": "Meus Termos",
+            "Link": "meus-termos",
+            "Itens": [
+              {
+                "Id": 5331,
+                "Nome": "Termo Home Office",
+                "Descricao": "Consulta de termos do home office",
+                "Link": ".consultar",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": ".consultar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "meus-termos.consultar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 3734,
+            "Nome": "Atestado Médico",
+            "Descricao": "Manutenção de atestados",
+            "Link": "atestado-medico",
+            "Itens": [
+              {
+                "Id": 3735,
+                "Nome": "Administração",
+                "Descricao": "Administração dos atestados médicos",
+                "Link": "atestado-medico.admin",
+                "Itens": [
+                  {
+                    "Id": 3733,
+                    "Nome": "Analisar atestado",
+                    "Descricao": "Função de administração para analisar o atestado médico",
+                    "Link": "atestado-medico.analisar",
+                    "Itens": [
+                      {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "atestado-medico.analisar.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "atestado-medico.analisar.consultar",
+                        "Itens": [],
+                        "Ocultar": false
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "atestado-medico.analisar.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Incluir",
+                        "Descricao": null,
+                        "Link": "atestado-medico.analisar.incluir",
+                        "Itens": [],
+                        "Ocultar": false
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Excluir",
+                        "Descricao": null,
+                        "Link": "atestado-medico.analisar.excluir",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "atestado-medico.analisar.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                      }
+                    ],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "atestado-medico.admin.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "atestado-medico.admin.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "atestado-medico.admin.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "atestado-medico.admin.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "atestado-medico.admin.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Imprimir",
+                    "Descricao": null,
+                    "Link": "atestado-medico.admin.imprimir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "atestado-medico.admin.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "atestado-medico.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "atestado-medico.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Alterar",
+                "Descricao": null,
+                "Link": "atestado-medico.alterar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "atestado-medico.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "atestado-medico.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 3736,
+            "Nome": "Afastamentos",
+            "Descricao": "Módulo de afastamentos",
+            "Link": "afastamento",
+            "Itens": [
+              {
+                "Id": 3730,
+                "Nome": "Administração",
+                "Descricao": "Função para administrar afastamentos",
+                "Link": "afastamento.admin",
+                "Itens": [
+                  {
+                    "Id": 3740,
+                    "Nome": "Analisar Afastamento",
+                    "Descricao": "Análise do afastamento",
+                    "Link": "afastamento.analisar",
+                    "Itens": [
+                      {
+                        "Id": null,
+                        "Nome": "Acessar",
+                        "Descricao": null,
+                        "Link": "afastamento.analisar.acessar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "afastamento.analisar.consultar",
+                        "Itens": [],
+                        "Ocultar": false
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "afastamento.analisar.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Incluir",
+                        "Descricao": null,
+                        "Link": "afastamento.analisar.incluir",
+                        "Itens": [],
+                        "Ocultar": false
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Excluir",
+                        "Descricao": null,
+                        "Link": "afastamento.analisar.excluir",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "afastamento.analisar.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                      }
+                    ],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "afastamento.admin.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "afastamento.admin.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "afastamento.admin.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "afastamento.admin.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "afastamento.admin.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "afastamento.admin.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "afastamento.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "afastamento.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Alterar",
+                "Descricao": null,
+                "Link": "afastamento.alterar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "afastamento.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "afastamento.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5450,
+            "Nome": "Reembolsos",
+            "Descricao": "Cadastros de reembolsos",
+            "Link": "reembolsos",
+            "Itens": [
+              {
+                "Id": 5451,
+                "Nome": "Administração",
+                "Descricao": "Administração dos Reembolsos",
+                "Link": "reembolsos.admin",
+                "Itens": [
+                  {
+                    "Id": 5452,
+                    "Nome": "Analisar Reembolsos",
+                    "Descricao": "Analisar Reembolsos",
+                    "Link": "reembolsos.analisar",
+                    "Itens": [
+                      {
+                        "Id": null,
+                        "Nome": "Consultar",
+                        "Descricao": null,
+                        "Link": "reembolsos.analisar.consultar",
+                        "Itens": [],
+                        "Ocultar": false
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Alterar",
+                        "Descricao": null,
+                        "Link": "reembolsos.analisar.alterar",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Incluir",
+                        "Descricao": null,
+                        "Link": "reembolsos.analisar.incluir",
+                        "Itens": [],
+                        "Ocultar": false
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Excluir",
+                        "Descricao": null,
+                        "Link": "reembolsos.analisar.excluir",
+                        "Itens": [],
+                        "Ocultar": true
+                      },
+                      {
+                        "Id": null,
+                        "Nome": "Visualizar",
+                        "Descricao": null,
+                        "Link": "reembolsos.analisar.visualizar",
+                        "Itens": [],
+                        "Ocultar": true
+                      }
+                    ],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "reembolsos.admin.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "reembolsos.admin.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "reembolsos.admin.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "reembolsos.admin.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "reembolsos.admin.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "reembolsos.acessar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Consultar",
+                "Descricao": null,
+                "Link": "reembolsos.consultar",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Alterar",
+                "Descricao": null,
+                "Link": "reembolsos.alterar",
+                "Itens": [],
+                "Ocultar": true
+              },
+              {
+                "Id": null,
+                "Nome": "Incluir",
+                "Descricao": null,
+                "Link": "reembolsos.incluir",
+                "Itens": [],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "reembolsos.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 4006,
+            "Nome": "Configurações",
+            "Descricao": "Configurações do sistema de RH",
+            "Link": "config",
+            "Itens": [
+              {
+                "Id": 5877,
+                "Nome": "Equipamentos",
+                "Descricao": "Equipamentos",
+                "Link": "equipamento",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "equipamento.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "equipamento.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "equipamento.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "equipamento.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "equipamento.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "equipamento.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 4007,
+                "Nome": "Parametrização",
+                "Descricao": "Parametrização do sistema",
+                "Link": "parametro",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "parametro.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "parametro.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "parametro.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "parametro.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "parametro.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "parametro.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 5871,
+                "Nome": "Certificação",
+                "Descricao": "Certificação",
+                "Link": "certificacao",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "certificacao.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "certificacao.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "certificacao.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "certificacao.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "certificacao.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "certificacao.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 5872,
+                "Nome": "Cargos Estratégicos",
+                "Descricao": "Cargos Estratégicos",
+                "Link": "cargo-estrategico",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Acessar",
+                    "Descricao": null,
+                    "Link": "cargo-estrategico.acessar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "cargo-estrategico.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "cargo-estrategico.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "cargo-estrategico.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "cargo-estrategico.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "cargo-estrategico.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": 5310,
+                "Nome": "Medicamentos",
+                "Descricao": "Cadastro de medicamentos regulamentados pela ANVISA",
+                "Link": "medicamento",
+                "Itens": [
+                  {
+                    "Id": null,
+                    "Nome": "Consultar",
+                    "Descricao": null,
+                    "Link": "medicamento.consultar",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Alterar",
+                    "Descricao": null,
+                    "Link": "medicamento.alterar",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Incluir",
+                    "Descricao": null,
+                    "Link": "medicamento.incluir",
+                    "Itens": [],
+                    "Ocultar": false
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Excluir",
+                    "Descricao": null,
+                    "Link": "medicamento.excluir",
+                    "Itens": [],
+                    "Ocultar": true
+                  },
+                  {
+                    "Id": null,
+                    "Nome": "Visualizar",
+                    "Descricao": null,
+                    "Link": "medicamento.visualizar",
+                    "Itens": [],
+                    "Ocultar": true
+                  }
+                ],
+                "Ocultar": false
+              },
+              {
+                "Id": null,
+                "Nome": "Acessar",
+                "Descricao": null,
+                "Link": "config.acessar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": false
+          },
+          {
+            "Id": 5333,
+            "Nome": "Plano de Saude",
+            "Descricao": "Número Carteirinha Plano de saúde",
+            "Link": null,
+            "Itens": [],
+            "Ocultar": true
+          },
+          {
+            "Id": 5820,
+            "Nome": "Colaboradores",
+            "Descricao": "Função de pesquisa de colaboradores",
+            "Link": "colaboradores.visualizar",
+            "Itens": [
+              {
+                "Id": null,
+                "Nome": "Visualizar",
+                "Descricao": null,
+                "Link": "colaboradores.visualizar",
+                "Itens": [],
+                "Ocultar": true
+              }
+            ],
+            "Ocultar": true
+          }
+        ],
+        "qtdRegistros": 26,
+        "mensagem": null,
+        "codNotificacao": null
+      },
+      "BuscarUsuario": {
+        "resultado": {
+            "Id": 22995,
+            "IdPessoa": 1535241,
+            "Login": "LORENR",
+            "Nome": "LOREN GABRIELLE OLIVEIRA ROCHA",
+            "Matricula": "1872",
+            "Cargo": "ASSISTENTE III",
+            "Foto": "data:image/jpg;base64,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",
+            "IdArea": 71326,
+            "NomeArea": "CODES",
+            "NomeDiretoria": "DIACO",
+            "CodigoSituacao": "A",
+            "Situacao": "ATIVIDADE NORMAL",
+            "Email": null,
+            "Documento": null,
+            "TipoGestor": null,
+            "SegredoMFA": "XEM9WHdg6ziabZ1TXyOMRn4aGIzTUI2RrfJiFhIgQTkirfbP07cYoz/rwWkQGDaaBPssKG+3vagmPMV4+DA1umnhL1r26qciaStQJEMbBciE3HHkiiMtijsKehBAvMJgFG08d9zYfQwpiM+IpyOc9j9Qaw73UYRqtHxTXmXcYHU/XtLaeQBn6Z7ywWcjjAoBeKke/qesBMgIHyQznLrKMqpw9MRaChAqdAzNGHoyiUNlVVQnH7OO8KFwKswPhrlJiezSvvbf1S5weGhxTos9J9ZhdbOyobDiLK3syXH5VgU=",
+            "ValidadeMFA": "2024-09-07T11:27:39",
+            "SituacaoMFA": null,
+            "TipoUsuario": 0
+        },
+        "qtdRegistros": 0,
+        "mensagem": null,
+        "codNotificacao": null
+    },
+    "Info": {
+        "resultado": {
+          "NomeSistema": "Recursos Humanos",
+          "LinkSistema": "https://rhweb.funcef.com.br",
+          "ImagemSistema": "<i class=\"fas fa-address-card\"></i>",
+          "DescricaoSistema": "<i class=\"fas fa-address-card\"></i>",
+          "Versao": "1.35.0.0",
+          "VersaoFramework": "4.0.30319.42000",
+          "CodigoModulo": "RHRCH",
+          "ConexaoTibero": "RPROD"
+        },
+        "codNotificacao": null
+      }
+}
