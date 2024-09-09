@@ -1,0 +1,13 @@
+{
+    "resultado": {
+      "NomeSistema": "Recursos Humanos",
+      "LinkSistema": "https://rhweb.funcef.com.br",
+      "ImagemSistema": "<i class=\"fas fa-address-card\"></i>",
+      "DescricaoSistema": "<i class=\"fas fa-address-card\"></i>",
+      "Versao": "1.35.0.0",
+      "VersaoFramework": "4.0.30319.42000",
+      "CodigoModulo": "RHRCH",
+      "ConexaoTibero": "RPROD"
+    },
+    "codNotificacao": null
+  }
