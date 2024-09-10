@@ -37,7 +37,8 @@ const Home = () => {
     <>
       <Header dadosUsuario={dadosUsuario} dadosInfo={dadosInfo} />
       <Menu />
-      <Footer />
+      <div>Conteúdo</div>
+      <Footer dadosInfo={dadosInfo} />
     </>
   );
 };
