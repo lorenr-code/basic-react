@@ -3,6 +3,7 @@ import { nomeUsuario } from "../../utils/string";
 import icon from "../../assets/images/rh.svg";
 import Button from "../Button";
 import { useState } from "react";
+import AmbienteHeader from "../AmbienteHeader";
 
 interface HeaderProps {
   dadosUsuario: IUsuario | undefined;
@@ -11,7 +12,9 @@ interface HeaderProps {
 
 const Header = ({ dadosUsuario, dadosInfo }: HeaderProps) => {
   const [logado, setLogado] = useState<boolean>(false);
-
+  if (!dadosInfo){
+    return <h1>Carregando...</h1>
+  }
   return (
     <>
       <header className="bg-primary h-16 flex justify-between text-white px-2">
@@ -61,6 +64,8 @@ const Header = ({ dadosUsuario, dadosInfo }: HeaderProps) => {
           )}
         </div>
       </header>
+
+      <AmbienteHeader dadosInfo={dadosInfo} />
     </>
   );
 };

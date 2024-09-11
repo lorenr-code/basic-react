@@ -2107,7 +2107,7 @@
           "Versao": "1.35.0.0",
           "VersaoFramework": "4.0.30319.42000",
           "CodigoModulo": "RHRCH",
-          "ConexaoTibero": "RPROD"
+          "ConexaoTibero": "HOM"
         },
         "codNotificacao": null
       }

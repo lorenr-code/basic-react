@@ -38,4 +38,11 @@ export interface IInfo {
   ConexaoTibero: string;
 }
 
-export interface IMenu {}
+export interface IMenu {
+  Id: number | null;
+  Nome: string;
+  Descricao: null | string;
+  Link: string;
+  Itens: IMenu[];
+  Ocultar: boolean;
+}
