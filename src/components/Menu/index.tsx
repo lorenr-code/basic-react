@@ -1,4 +1,5 @@
 import { IMenu } from "../../interfaces";
+import { Accordion } from "../Accordion";
 
 const Menu = ({ dadosMenu }: { dadosMenu: IMenu[] | undefined }) => {
   return (
@@ -7,9 +8,7 @@ const Menu = ({ dadosMenu }: { dadosMenu: IMenu[] | undefined }) => {
         {dadosMenu?.map((item) => {
           return <> 
             <div key={item.Id}> 
-              {item.Nome}
-
-
+              <Accordion title={item.Nome} >
               {item.Itens.map((menuFilho, index) => {
                 return < >
                   <div key={index} className="pl-4">
@@ -18,7 +17,10 @@ const Menu = ({ dadosMenu }: { dadosMenu: IMenu[] | undefined }) => {
                 </>
               } 
 
-            )}
+              )}
+              </Accordion>
+
+              
 
             </div>
           </>

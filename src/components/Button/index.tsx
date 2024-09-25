@@ -1,18 +1,33 @@
 interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
-  tipo: "verde";
+  tipo?: "button"|"submit";
+  backgroundColor: string;
+  textColor: string;
+  size?: "small"|"medium"|"large";
 }
 
-const Button = ({ tipo, className, ...rest }: ButtonProps) => {
-  let bg = "";
-
-  switch (tipo) {
-    case "verde":
-      bg = "bg-success";
+const Button = ({ tipo="button", backgroundColor="red", textColor="white", size, className, ...rest }: ButtonProps) => {
+  let defaultSize = "100%";
+  
+  switch(size){
+    case "small":
+       defaultSize = "20px";
+       break;
+    case "medium": 
+      defaultSize = "40px";
+      break;
+    case "large": 
+      defaultSize = "80px";
+      break;
   }
+
 
   return (
     <>
-      <button {...rest} className={`${className} ${bg} px-3 py-1 rounded`}>
+      <button type={tipo} {...rest} className={`px-3 py-1 rounded`} style={{
+        backgroundColor: backgroundColor, 
+        width: defaultSize,
+        color: textColor
+        }}>
         Entrar
       </button>
     </>
