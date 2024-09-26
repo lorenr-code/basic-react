@@ -23,19 +23,17 @@ const Home = () => {
     try {
       const data = await BuscarInfo();
       setDadosInfo(data);
-      console.log(data);
     } catch (error) {
       console.log(error);
     }
   };
 
-  const buscarMenu = async () =>{
+  const buscarMenu = async () => {
     try {
       const data = await BuscarMenu();
-      console.log(data);
       setDadosMenu(data);
-    } catch (err){
-      console.log(err);
+    } catch (error) {
+      console.log(error);
     }
   };
 
@@ -45,13 +43,13 @@ const Home = () => {
     buscarMenu();
   }, []);
 
-  if(!dadosUsuario || !dadosMenu || !dadosInfo ){
-    return (<h1>Carregando...</h1>);
+  if (!dadosUsuario || !dadosMenu || !dadosInfo) {
+    return <h1>Carregando...</h1>;
   }
   return (
     <>
       <Header dadosUsuario={dadosUsuario} dadosInfo={dadosInfo} />
-      <Menu dadosMenu={dadosMenu}/>
+      <Menu dadosMenu={dadosMenu} />
       <div>Conteúdo</div>
       <Footer dadosInfo={dadosInfo} />
     </>

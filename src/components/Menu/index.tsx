@@ -6,24 +6,19 @@ const Menu = ({ dadosMenu }: { dadosMenu: IMenu[] | undefined }) => {
     <>
       <div>
         {dadosMenu?.map((item) => {
-          return <> 
-            <div key={item.Id}> 
-              <Accordion title={item.Nome} >
-              {item.Itens.map((menuFilho, index) => {
-                return < >
-                  <div key={index} className="pl-4">
-                    {menuFilho.Nome}
-                  </div>
-                </>
-              } 
-
-              )}
+          return (
+            <div key={item.Id}>
+              <Accordion title={item.Nome}>
+                {item.Itens.map((menuFilho, index) => {
+                  return (
+                    <div key={index} className="pl-4">
+                      {menuFilho.Nome}
+                    </div>
+                  );
+                })}
               </Accordion>
-
-              
-
             </div>
-          </>
+          );
         })}
       </div>
     </>
